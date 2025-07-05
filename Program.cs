@@ -1,7 +1,6 @@
 #if DEBUG
 using System.Runtime.ExceptionServices;
 #endif
-using System.Security.Cryptography;
 
 namespace LETraditionalChinese;
 public static class Program {
@@ -61,10 +60,5 @@ public static class Program {
 		Console.WriteLine();
 		Console.Write("Enter to exit . . .");
 		Console.ReadLine();
-	}
-
-	public static async ValueTask<byte[]> GenerateHashAsync(string bundlePath, CancellationToken cancellationToken = default) {
-		using var fs = File.OpenRead(bundlePath);
-		return await MD5.HashDataAsync(fs, cancellationToken);
 	}
 }

@@ -6,27 +6,15 @@
   "m_Enabled": 1,
   "m_Script": {
     "m_FileID": 1,
-    "m_PathID": 168
+    "m_PathID": 76
   },
   "m_Name": "jf-openhuninn-2.1 SDFAA (Dynamic)",
-  "hashCode": -746261078,
-  "material": {
-    "m_FileID": 0,
-    "m_PathID": 1
-  },
-  "materialHashCode": -1054072502,
   "m_Version": "1.1.0",
-  "m_SourceFontFileGUID": "395e0539c60d579478117ea5af63aa99",
-  "m_SourceFontFile": {
-    "m_FileID": 0,
-    "m_PathID": 13
-  },
-  "m_AtlasPopulationMode": 1,
   "m_FaceInfo": {
     "m_FaceIndex": 0,
     "m_FamilyName": "jf-openhuninn-2.1",
     "m_StyleName": "Regular",
-    "m_PointSize": 52,
+    "m_PointSize": 52.0,
     "m_Scale": 1.0,
     "m_UnitsPerEM": 1024,
     "m_LineHeight": 76.96,
@@ -45,6 +33,38 @@
     "m_StrikethroughThickness": 2.5390625,
     "m_TabWidth": 15.0
   },
+  "m_Material": {
+    "m_FileID": 0,
+    "m_PathID": 1
+  },
+  "m_SourceFontFileGUID": "395e0539c60d579478117ea5af63aa99",
+  "m_CreationSettings": {
+    "sourceFontFileName": "",
+    "sourceFontFileGUID": "395e0539c60d579478117ea5af63aa99",
+    "faceIndex": 0,
+    "pointSizeSamplingMode": 0,
+    "pointSize": 52,
+    "padding": 8,
+    "paddingMode": 0,
+    "packingMode": 0,
+    "atlasWidth": 1024,
+    "atlasHeight": 1024,
+    "characterSetSelectionMode": 7,
+    "characterSequence": "",
+    "referencedFontAssetGUID": "",
+    "referencedTextAssetGUID": "",
+    "fontStyle": 0,
+    "fontStyleModifier": 0.0,
+    "renderMode": 4169,
+    "includeFontFeatures": 0
+  },
+  "m_SourceFontFile": {
+    "m_FileID": 0,
+    "m_PathID": 13
+  },
+  "m_SourceFontFilePath": "",
+  "m_AtlasPopulationMode": 1,
+  "InternalDynamicOS": 0,
   "m_GlyphTable": {
     "Array": []
   },
@@ -61,7 +81,12 @@
   },
   "m_AtlasTextureIndex": 0,
   "m_IsMultiAtlasTexturesEnabled": 1,
+  "m_GetFontFeatures": 1,
   "m_ClearDynamicDataOnBuild": 1,
+  "m_AtlasWidth": 1024,
+  "m_AtlasHeight": 1024,
+  "m_AtlasPadding": 8,
+  "m_AtlasRenderMode": 4169,
   "m_UsedGlyphRects": {
     "Array": []
   },
@@ -75,73 +100,26 @@
       }
     ]
   },
-  "m_fontInfo": {
-    "Name": "",
-    "PointSize": 0.0,
-    "Scale": 0.0,
-    "CharacterCount": 0,
-    "LineHeight": 0.0,
-    "Baseline": 0.0,
-    "Ascender": 0.0,
-    "CapHeight": 0.0,
-    "Descender": 0.0,
-    "CenterLine": 0.0,
-    "SuperscriptOffset": 0.0,
-    "SubscriptOffset": 0.0,
-    "SubSize": 0.0,
-    "Underline": 0.0,
-    "UnderlineThickness": 0.0,
-    "strikethrough": 0.0,
-    "strikethroughThickness": 0.0,
-    "TabWidth": 0.0,
-    "Padding": 0.0,
-    "AtlasWidth": 0.0,
-    "AtlasHeight": 0.0
-  },
-  "atlas": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "m_AtlasWidth": 1024,
-  "m_AtlasHeight": 1024,
-  "m_AtlasPadding": 8,
-  "m_AtlasRenderMode": 4169,
-  "m_glyphInfoList": {
-    "Array": []
-  },
-  "m_KerningTable": {
-    "kerningPairs": {
-      "Array": []
-    }
-  },
   "m_FontFeatureTable": {
+    "m_MultipleSubstitutionRecords": {
+      "Array": []
+    },
+    "m_LigatureSubstitutionRecords": {
+      "Array": []
+    },
     "m_GlyphPairAdjustmentRecords": {
       "Array": []
+    },
+    "m_MarkToBaseAdjustmentRecords": {
+      "Array": []
+    },
+    "m_MarkToMarkAdjustmentRecords": {
+      "Array": []
     }
   },
-  "fallbackFontAssets": {
-    "Array": []
-  },
+  "m_ShouldReimportFontFeatures": 0,
   "m_FallbackFontAssetTable": {
     "Array": []
-  },
-  "m_CreationSettings": {
-    "sourceFontFileName": "",
-    "sourceFontFileGUID": "395e0539c60d579478117ea5af63aa99",
-    "pointSizeSamplingMode": 0,
-    "pointSize": 52,
-    "padding": 8,
-    "packingMode": 0,
-    "atlasWidth": 1024,
-    "atlasHeight": 1024,
-    "characterSetSelectionMode": 7,
-    "characterSequence": "",
-    "referencedFontAssetGUID": "",
-    "referencedTextAssetGUID": "",
-    "fontStyle": 0,
-    "fontStyleModifier": 0.0,
-    "renderMode": 4169,
-    "includeFontFeatures": 0
   },
   "m_FontWeightTable": {
     "Array": [
@@ -255,5 +233,43 @@
   "boldStyle": 0.4,
   "boldSpacing": 0.0,
   "italicStyle": 35,
-  "tabSize": 10
+  "tabSize": 10,
+  "m_fontInfo": {
+    "Name": "",
+    "PointSize": 0.0,
+    "Scale": 0.0,
+    "CharacterCount": 0,
+    "LineHeight": 0.0,
+    "Baseline": 0.0,
+    "Ascender": 0.0,
+    "CapHeight": 0.0,
+    "Descender": 0.0,
+    "CenterLine": 0.0,
+    "SuperscriptOffset": 0.0,
+    "SubscriptOffset": 0.0,
+    "SubSize": 0.0,
+    "Underline": 0.0,
+    "UnderlineThickness": 0.0,
+    "strikethrough": 0.0,
+    "strikethroughThickness": 0.0,
+    "TabWidth": 0.0,
+    "Padding": 0.0,
+    "AtlasWidth": 0.0,
+    "AtlasHeight": 0.0
+  },
+  "m_glyphInfoList": {
+    "Array": []
+  },
+  "m_KerningTable": {
+    "kerningPairs": {
+      "Array": []
+    }
+  },
+  "fallbackFontAssets": {
+    "Array": []
+  },
+  "atlas": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
 }
