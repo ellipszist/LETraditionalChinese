@@ -43,8 +43,8 @@
 		"Forum-Thin SDF16 (Cyrillic)": 0,
 		"Forum-SemiBold SDF (Cyrillic)": 1,
 		"Forum-Bold SDF (Cyrillic)": 1,
-		"Cinzel-Bold SDF": 1,
-		"LiberationSans SDF": 2
+		"Caladea-Bold SDF": 1,
+		"Forum-Regular SDF (Cyrillic, Cinzel Adapted)": 2
 	},
 	
 	"cancelIfNoFontReplaced": true,
@@ -56,6 +56,6 @@
 		
 		// Which fonts shouldn't be affect
 		"excludeReplaced": true,  // Excludes the fonts in `fontReplacements`
-		"excludeFonts": ["LiberationSans SDF - Fallback"]  // Font names after replacement
+		"excludeFonts": []  // Font names after replacement
 	}
 }

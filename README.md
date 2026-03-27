@@ -12,6 +12,7 @@
 	```sh
 	LETraditionalChinese "C:\Program Files (x86)\Steam\steamapps\common\Last Epoch"
 	```
+此工具基本上適用於遊戲的所有版本和其後續更新，除非官方改動了遊戲內的字體或升級了引擎版本等
 
 ### 翻譯說明
 - 繁體中文文本為採用 [Azure AI Translator](https://azure.microsoft.com/zh-tw/products/ai-services/ai-translator) 翻譯遊戲內建簡體語系，並以程式輔助和部分人工加以修訂格式方面的錯誤
